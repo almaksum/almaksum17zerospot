@@ -98,7 +98,9 @@ body {
 
 /* ===== home Section ===== */
 
-section {
+.home,
+.about,
+.service {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
 }
@@ -193,14 +195,13 @@ span {
 }
 
 .project h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .project-container {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
 }
 
 .project-container .project-box {
