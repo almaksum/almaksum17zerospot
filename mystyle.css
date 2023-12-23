@@ -251,13 +251,7 @@ span {
 .project-layer h4 {
   font-size: 3rem;
   font-weight: bold;
-}
-
-.project-layer p {
-  font-size: 2rem;
-  margin: 0 0 50px 0;
-  opacity: 1 !important;
-  text-align: center !important;
+  margin-bottom: 50px;
 }
 
 .project-layer a {
