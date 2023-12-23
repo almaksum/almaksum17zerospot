@@ -55,7 +55,7 @@ ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal("h3, p, .footer-iconTop", { origin: "right" });
 ScrollReveal().reveal(".about-img, h1", { origin: "left" });
 ScrollReveal().reveal(
-  ".service-container, .project-container, .home-img, .btn",
+  ".service-container, .project-container, .home-img, .skill-img, .btn",
   {
     origin: "bottom",
   }

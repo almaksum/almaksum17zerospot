@@ -100,6 +100,7 @@ body {
 
 .home,
 .about,
+.skill,
 .service {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
@@ -181,11 +182,38 @@ span {
   line-height: 1.2;
 }
 
-.about-content h3 {
-  font-size: 2.6rem;
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
 }
 
-.about-content p {
+/* ===== Skill And Technology */
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--bg-color);
+  padding: 100px 150px 50px 150px;
+}
+
+.skill-img img {
+  width: 15%;
+  margin: 0 50px 50px 0;
+}
+
+.skill .heading {
+  text-align: center;
+  font-size: 7rem;
+}
+
+.skill-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.skill-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
