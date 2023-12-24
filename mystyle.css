@@ -536,26 +536,3 @@ span {
     font-size: 50%;
   }
 }
-
-@media (max-width: 365px) {
-  .home-img img {
-    width: 60vw;
-  }
-
-  .about {
-    width: 100vw;
-  }
-
-  .about-img img {
-    width: 90vw;
-  }
-
-  .footer {
-    flex-direction: column-reverse;
-  }
-
-  .footer p {
-    text-align: center;
-    margin-top: 2rem;
-  }
-}
