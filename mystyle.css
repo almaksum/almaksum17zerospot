@@ -26,6 +26,21 @@
   display: none;
 }
 
+/* ===== Contact Button ===== */
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 50px; /* Atur jarak dari bawah sesuai keinginan Anda */
+  right: 50px; /* Atur jarak dari kanan sesuai keinginan Anda */
+  padding: 15px 20px;
+  font-size: 20px;
+  background-color: #25d366; /* Ubah warna tombol sesuai keinginan Anda */
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 9999; /* Pastikan z-index cukup tinggi agar tombol di atas elemen lain */
+}
+
 /* ===== Button ===== */
 
 .btn {
@@ -114,6 +129,10 @@ body {
   align-items: center;
 }
 
+.home-img {
+  width: 35vw;
+}
+
 .home-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
@@ -164,7 +183,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 8rem;
   background: var(--second-bg-color);
 }
 
@@ -195,7 +214,6 @@ span {
   align-items: center;
   gap: 2rem;
   background: var(--bg-color);
-  padding: 100px 150px 50px 150px;
 }
 
 .skill-img img {
@@ -211,11 +229,6 @@ span {
 .skill-content h2 {
   text-align: left;
   line-height: 1.2;
-}
-
-.skill-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
 }
 
 /* ===== My Projects ====== */
@@ -314,8 +327,8 @@ span {
 .service-container .service-box {
   flex: 1 1 30rem;
   background: var(--second-bg-color);
-  padding: 3rem 2rem 4rem;
-  border-radius: 2rem;
+  padding: 20px 20px 20px 30px;
+  border-radius: 30px;
   align-items: center;
   border: 0.2rem solid var(--bg-color);
   transition: 0.5s ease;
@@ -359,10 +372,10 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 0.8rem;
+  padding: 15px 20px;
   background: var(--main-color);
   border: 0.8rem;
-  border-radius: 20%;
+  border-radius: 50%;
   transition: 0.5s ease;
 }
 
@@ -381,6 +394,14 @@ span {
   html {
     font-size: 55%;
   }
+
+  .home-img {
+    margin-top: -50px;
+  }
+
+  .about-img {
+    margin-top: -50px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -389,7 +410,11 @@ span {
   }
 
   section {
-    padding: 10rem 3% 2rem;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .skill {
+    padding-bottom: 10rem;
   }
 
   .project {
@@ -408,6 +433,19 @@ span {
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill .heading {
+    font-size: 4rem;
+  }
+
+  .project-container {
+    width: 90%;
   }
 
   /* ===== navbar ===== */
@@ -451,6 +489,8 @@ span {
   .home-img {
     width: 70vw;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
 
   /* ===== About ===== */
@@ -460,7 +500,7 @@ span {
   }
 
   .about img {
-    width: 50vw;
+    width: 60vw;
     margin-top: 4rem;
   }
 
@@ -475,6 +515,10 @@ span {
   }
 
   /* ===== Service ===== */
+  .service-box a {
+    display: flex;
+    justify-content: center;
+  }
 
   .service h2 {
     margin-bottom: 3rem;
@@ -495,7 +539,11 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 90vw;
+    width: 60vw;
+  }
+
+  .about {
+    width: 100vw;
   }
 
   .about-img img {
