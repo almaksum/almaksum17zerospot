@@ -549,7 +549,7 @@ span {
   }
 
   .footer {
-    flex-direction: column-reverse;
+    display: block;
   }
 
   .footer p {
