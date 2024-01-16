@@ -535,25 +535,41 @@ span {
   html {
     font-size: 50%;
   }
+
+  .footer {
+    display: flex;
+  }
+
+  .footer .footer-text {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    z-index: 99;
+  }
 }
 
 @media (max-width: 365px) {
   /* ===== Home ===== */
 
-  .home-img img {
+  .home-img {
     width: 80%;
   }
 
+  /* ===== About ===== */
   .about-img img {
     width: 90vw;
   }
 
+  /* ===== Footer ===== */
   .footer {
-    display: block;
+    flex-direction: column; /* Mengubah tata letak footer menjadi kolom */
+    align-items: center; /* Pusatkan item di dalam footer */
   }
 
-  .footer p {
+  .footer-text {
     text-align: center;
     margin-top: 2rem;
+    color: #fff;
+    z-index: 99;
   }
 }
