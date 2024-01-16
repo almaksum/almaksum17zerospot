@@ -541,7 +541,7 @@ span {
   /* ===== Home ===== */
 
   .home-img img {
-    display: none;
+    width: 80%;
   }
 
   .about-img img {
